@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>American Candy</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="/pages.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
+        </div>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li>
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+                <!-- How to link to a differeny page with ID -->
+                <li>
+                    <a href="/index.html#about" class="nav-link">About</a>
+                </li>
+
+                <li>
+                    <a href="/index.html#portfolio" class="nav-link">On Offer</a>
+                </li>
+                <li>
+                    <a href="/index.html#experiance" class="nav-link">Our Range</a>
+                </li>
+
+                <li>
+                    <a href="/index.html#contact" class="nav-link">Contact</a>
+                </li>
+
+            </ul>
+        </nav>
+
+        <div class="landing-text">
+
+            <h2>Our American Candy</h2>
+
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img">
+                <img src="../images/candy.jpg" alt="">
+            </div>
+
+            <div class="about-details">
+                <div class="about-heading">
+                    <h1>Candy Land</h1>
+                    <h6>Speciality box</h6>
+                </div>
+                <p>
+
+                    This candy collection can either come in a box or be made into a sweets bouquet. You can customise your choice of sweets and chocolates as per need.
+                </p>
+                <div class="price">
+                    <h1>Price: R250 per box</h1>
+                    <p>Optional extra's not included</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <div class="lable">
+        <h1>
+            Content
+
+        </h1>
+    </div>
+    <section class="product" id="product">
+        <table border="1">
+
+            <tr>
+                <th>Total Items</th>
+                <td>11</td>
+            </tr>
+
+            <tr>
+                <th>Stock remaining</th>
+                <td>12 bundles</td>
+            </tr>
+            <tr>
+                <th>Product ID</th>
+                <td>SweetBask combo 1</td>
+            </tr>
+            <tr>
+                <th>Product weight</th>
+                <td>1.5 kg</td>
+            </tr>
+            <tr>
+                <th>Choice of packaging</th>
+                <td>
+                    <input type="checkbox" name="Type" id="box">
+                    <label for="box">Cardbord Box</label>
+                    <br>
+                    <input type="checkbox" name="Type" id="bouquet">
+                    <label for="bouquet">Bouquet</label>
+                    <br>
+                    <input type="checkbox" name="Type" id="woodbox">
+                    <label for="woodbox">Wooden Gift Box</label>
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <th>Total Content</th>
+                <td>
+                    <li>1 X big chocolate</li>
+                    <li>5 X mini chocolate</li>
+                    <li>1 X Large chocolate</li>
+                    <li>4 X small chocolate</li>
+                    <li>1 X Red chocolate</li>
+                    <li>1 X blue chocolate</li>
+                    <li>1 X packet mini chocs</li>
+                </td>
+
+
+            </tr>
+        </table>
+
+    </section>
+
+    <section class="order" id="order">
+        <form>
+            <input type="radio" name="Order" id="delivery">
+            <label for="delivery">Delivery</label>
+            <br></br>
+            <input type="radio" name="Order" id="collection">
+            <label for="collection">Collection</label>
+            <br></br>
+
+        </form>
+        <button>Order now</button>
+    </section>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="../main.js"></script>
+</body>
+
+</html>
